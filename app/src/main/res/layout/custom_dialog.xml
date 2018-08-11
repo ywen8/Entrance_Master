@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/dp_30"
+              android:layout_marginRight="@dimen/dp_30"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在更新"
+            android:layout_margin="@dimen/dp_20"
+            android:textSize="@dimen/sp_16"
+    />
+    <ProgressBar
+            android:layout_width="match_parent"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
